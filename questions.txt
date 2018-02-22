@@ -1,24 +1,38 @@
-Your name
+Chad Johnerson
 CSCI-305
 
-10.
+10. I tend to see 'you ready for' repeating a lot as well as 'the world of'
 
-14.
+14. A lot of these words are really common to follow each other in the English language so once they start it is easy for them to
+repeat as they are each others most common words.
 
-15.
+15. Any of the words that were excluded in the stop word steps will only be titles of one word due to the fact that they have no bigram now.
+Other words that have this stop words that commonly follow them are more likely to stop now, but there are other words that cause loops.
+"welcome breeze stinking air g string pearls" was one title I could find under 20 words.
 
-16.
+16. Essentially I just thought of common words that followed one another and kept trying them to see what the most common repeats were, then I would remove one of the words
+and add it to the stop word list. It really was only guess and check so it probably limited the uniqueness of song titles. Some song titles still aren't fixed,
+but it seems like a lot of the bigger problems are gone.
 
-19.
+17. No song title returned with my attempted fix. With the 20 word cap I got the following:
+montana kid in the world is a little girl in the world is a little girl in the world is
 
-20.
+18. 'bob marley me to the world is a little girl in the world is a little girl in the world'
 
-21.
+19. 'bob marley medley 1 in the world is a little girl in the world is a little girl in the'
+'bob marley purt drive me to the world is a little girl in the world is a little girl in'
+Since all the song titles are different, we are seeing the case where the words following 'marley' all have the same count for amount of times they show up.
+This is where the randomness comes into play and allows us to have different song titles.
 
-22.
+20. quick one bites dust dances suite no sunshine when i want christmas carol matitle
 
-23.
+21. I do enjoy the fact that the language is type less, so there is no need to remember how to declare certain types of variables. This makes for some faster coding at times.
 
-24.
+22. I don't like how variables are called in other functions. Also hate how difficult it is to print what you want due to the #{} encapsulation.
 
-25.
+23. It was lengthy, wouldn't say I enjoyed the whole thing. I liked the regex portion as it is really applicable to my job.
+I didn't like how vague it was when the data structure was being mentioned. Made it hard for self check debug purposes with the scripts if things weren't just right.
+
+24. 10 hours
+
+25. Yeah I can see it being useful for large data projects.

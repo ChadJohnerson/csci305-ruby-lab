@@ -5,7 +5,7 @@ RSpec.describe "Title Cleaning Self Check" do
     it "counts are 52760" do
       file_name = "a_tracks.txt"
       count = 0
-      IO.foreach(file_name) do |line|
+      IO.foreach(file_name, encoding: "UTF-8") do |line|
         song = cleanup_title(line)
 
         if not song.nil?
